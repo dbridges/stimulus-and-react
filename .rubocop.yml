@@ -1,0 +1,72 @@
+require: rubocop-rspec
+
+Documentation:
+  Enabled: false
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/GuardClause:
+ Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: true
+  Exclude:
+    - "spec/factories/*"
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - "spec/**/*"
+
+AllCops:
+  TargetRubyVersion: 2.7
+
+Rails:
+  Enabled: true
+
+
