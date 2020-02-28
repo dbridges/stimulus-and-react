@@ -2,11 +2,17 @@
   "name": "stimulus_and_react",
   "private": true,
   "dependencies": {
+    "@babel/preset-react": "^7.8.3",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
     "axios": "^0.19.2",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-select": "^3.0.8",
     "stimulus": "^1.1.1",
     "turbolinks": "^5.2.0"
   },
