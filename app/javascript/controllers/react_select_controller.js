@@ -20,9 +20,7 @@ export default class extends Controller {
 
     const options = [...select.options];
 
-    const defaultValue = [...select.selectedOptions].filter(
-      opt => opt.selected
-    );
+    const defaultValue = [...select.selectedOptions];
 
     const isMulti = select.getAttribute("multiple") != null;
 
